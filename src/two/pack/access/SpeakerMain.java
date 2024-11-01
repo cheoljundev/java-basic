@@ -9,7 +9,7 @@ public class SpeakerMain {
         speaker.showVolume();
 
         // 필드에 직접 접근
-        speaker.volume = 120;
+        // speaker.volume = 120; // private 적용으로 접근 불가능
         speaker.showVolume();
     }
 }
